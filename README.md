@@ -33,7 +33,7 @@ A comprehensive full-stack application for analyzing and visualizing student cog
 
 1. **Clone and setup the project**:
    \`\`\`bash
-   # Download the project files from v0
+   
    # Install dependencies automatically handled by Next.js
    \`\`\`
 
@@ -197,18 +197,8 @@ This dashboard helps educators:
 - **Track** student progress and cognitive development
 - **Personalize** learning experiences based on AI insights
 
-## 🤝 Contributing
 
-This project was built with v0 by Vercel. To extend or modify:
 
-1. Use the v0 interface to make changes
-2. Test new features with the integrated preview
-3. Deploy updates directly to Vercel
 
-## 📄 License
-
-Built with v0 by Vercel. Educational use encouraged.
-
----
 
 **Powered by AI** 🤖 | **Built with Next.js** ⚡ | **Designed for Education** 📚
