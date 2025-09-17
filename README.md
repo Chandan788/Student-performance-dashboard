@@ -29,53 +29,8 @@ A comprehensive full-stack application for analyzing and visualizing student cog
 - Python 3.8+ (for data analysis scripts)
 - OpenAI API key for AI recommendations
 
-### Installation
 
-1. **Clone and setup the project**:
-   \`\`\`bash
-   
-   # Install dependencies automatically handled by Next.js
-   \`\`\`
-
-2. **Environment Variables**:
-   Create a `.env.local` file with your OpenAI API key:
-   \`\`\`env
-   OPENAI_API_KEY=your_openai_api_key_here
-   \`\`\`
-
-3. **Run the development server**:
-   \`\`\`bash
-   npm run dev
-   \`\`\`
-
-4. **Generate student data** (optional):
-   \`\`\`bash
-   # Run the Python scripts to generate fresh data
-   python scripts/generate_dataset.py
-   python scripts/analysis.py
-   \`\`\`
-
-## 📁 Project Structure
-
-\`\`\`
-├── app/                          # Next.js app directory
-│   ├── api/                      # API routes
-│   │   ├── analyze-student/      # Student analysis endpoint
-│   │   ├── generate-recommendations/ # AI recommendations
-│   │   └── predict-score/        # Score prediction
-│   ├── student-analysis/         # Individual analysis page
-│   ├── predictive-scoring/       # ML prediction interface
-│   ├── learning-personas/        # Persona analysis page
-│   └── page.tsx                  # Dashboard homepage
-├── components/                   # React components
-│   ├── ui/                       # Base UI components
-│   ├── charts/                   # Data visualization components
-│   └── analysis/                 # Analysis-specific components
-├── scripts/                      # Python analysis scripts
-│   ├── analysis.py              # Main data analysis
-│   └── generate_dataset.py      # Dataset generation
-└── lib/                         # Utility functions
-\`\`\`
+  
 
 ## 🤖 AI Features
 
